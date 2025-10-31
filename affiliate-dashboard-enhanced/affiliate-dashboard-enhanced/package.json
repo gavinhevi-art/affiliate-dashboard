@@ -23,7 +23,4 @@
     "tailwind-merge": "^2.5.2"
   }
 }
-npm install
-git add package.json package-lock.json
-git commit -m "pin next + dependencies"
-git push
+
