@@ -1,20 +1,8 @@
-{
-  "name": "affiliate-dashboard-enhanced",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@supabase/supabase-js": "^2.0.0",
-    "nanoid": "^4.0.0",
-    "date-fns": "^3.0.0",
-    "recharts": "^2.6.2",
-    "lucide-react": "^0.337.0"
-  }
-}
+npm i next@latest react@18 react-dom@18
+npm pkg set scripts.dev="next dev"
+npm pkg set scripts.build="next build"
+npm pkg set scripts.start="next start"
+
+git add -A
+git commit -m "add next + scripts"
+git push
